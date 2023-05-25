@@ -1,0 +1,9 @@
+.gallery__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.gallery__list li {
+  flex-basis: calc((100% - 90px) / 4);
+}
